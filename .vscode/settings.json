@@ -47,5 +47,11 @@
     "scss",
     "pcss",
     "postcss"
+  ],
+
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "headerClassName"
   ]
 }

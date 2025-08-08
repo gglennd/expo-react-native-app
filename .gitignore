@@ -142,6 +142,7 @@ vite.config.ts.timestamp-*
 .expo/
 web-build/
 expo-env.d.ts
+nativewind-env.d.ts
 
 # Native
 .kotlin/
