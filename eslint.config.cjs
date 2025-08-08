@@ -13,6 +13,8 @@ module.exports = antfu({
   plugins: [expoConfig],
   ignores: ["dist/**"],
   rules: {
+    "react/no-context-provider": ["off"],
+    "react/no-use-context": ["off"],
     "no-console": ["warn"],
     "perfectionist/sort-imports": ["error", {
       tsconfigRootDir: ".",
